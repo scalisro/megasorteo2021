@@ -1,0 +1,9 @@
+RewriteEngine On
+<IfModule mod_expires.c>
+# Enable expirations
+ExpiresActive On 
+# Default directive
+ExpiresDefault "access plus 1 month"
+# CSS
+ExpiresByType text/css "access plus 1 year"
+</IfModule>Options -Indexes
