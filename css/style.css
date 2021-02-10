@@ -14,3 +14,9 @@
     border-color: #f29561!important;
     color: #fff;
 }
+
+ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover {
+    /* background-color: #fed136; */
+    background-color: #b2b2b2;
+    color: #fff
+}
